@@ -2,18 +2,26 @@
   <v-app :style="{background: $vuetify.theme.themes[theme].background}">
     <v-content>
       <v-row class="main-row" justify="center" align="center">
-        <div>
-          <Art
-            v-if="randomNumber !== null"
-            :author="current.author"
-            :image="current.image"
-            :url="current.url"
-            :loading="loading"
-          />
-          <div class="mx-auto mt-4" style="max-width: 300px">
-            <v-btn block rounded depressed @click.stop.prevent="randomize" color="primary">Randomize</v-btn>
+        <v-col>
+          <div>
+            <Art
+              v-if="randomNumber !== null"
+              :author="current.author"
+              :image="current.image"
+              :url="current.url"
+              :loading="loading"
+            />
+            <div class="mx-auto mt-4" style="max-width: 300px">
+              <v-btn
+                block
+                rounded
+                depressed
+                @click.stop.prevent="randomize"
+                color="primary"
+              >Randomize</v-btn>
+            </div>
           </div>
-        </div>
+        </v-col>
       </v-row>
     </v-content>
   </v-app>
