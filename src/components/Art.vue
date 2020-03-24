@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 .rounded-card {
-  max-width: 500px;
+  max-width: 320px;
   border-radius: 1rem !important;
   box-shadow: 0 0 10rem rgba(0, 0, 0, 0.2) !important;
 }
