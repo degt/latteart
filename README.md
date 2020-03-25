@@ -1,6 +1,6 @@
 # latteart
 
-![Latteart icon](https://github.com/degt/latteart/blob/master/public/manifest-icon-512.png?raw=true | width=256)
+![Latteart icon](https://github.com/degt/latteart/blob/master/public/manifest-icon-512.png?raw=true)
 [📻 https://degt.github.io/latteart/](https://degt.github.io/latteart/)
 
 ## Project setup
